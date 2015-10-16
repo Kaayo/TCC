@@ -1,0 +1,30 @@
+<div id="menu_listar_gravacao">	
+	<div id="listar_gravacao">
+		<!-- Lista - BootStrap-->
+		<div class="container-fluid">
+	 		<div class="list-group" ng-repeat="i in itens">
+	    		<a href="" class="list-group-item active">
+	      			<h4 class="list-group-item-heading">{{i.titulo}}</h4>
+	      				<p class="list-group-item-text">{{i.conteudo}}</p>
+	    		</a>
+	 		</div>
+		</div>
+	</div> 
+   
+	<!-- Texto informando se o dispositivo está on-line -->
+	<div id="menu_device_ready" class="app">
+		<h1>PhoneGap</h1>
+			<div id="deviceready" class="blink">
+				<p class="event listening">Connecting to Device</p>
+				<p class="event received">Device is Ready</p>
+			</div>
+	</div>
+
+
+	<!-- Botões -->
+	<div id="botao_voltar_menu">
+		<a href="#/ "><button OnClick="" type="button" class="btn btn-lg btn-primary fa fa-chevron-left posicaoBotaoGravar" style="width: 50%; height: 15%; float:left"> VOLTAR </button></a>
+
+		<a href=""><button OnClick="" type="botao_apagar_gravacao" class="btn btn-lg btn-primary fa fa-eraser posicaoBotaoListarGravacao" style="width: 50%; height: 15%; float:right"> APAGAR </button></a>		
+	</div>
+ </div>

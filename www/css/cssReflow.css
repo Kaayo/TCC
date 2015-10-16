@@ -1,0 +1,96 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#input:hover {
+    display: block;
+    background-color: rgb(239, 241, 241);
+    -webkit-box-shadow: rgb(50, 50, 50) 0px 3px 3px 0px;
+    box-shadow: rgb(50, 50, 50) 0px 3px 3px 0px;
+}
+
+#box {
+    float: left;
+    height: 105px;
+    margin-left: 14.65874%;
+    margin-top: 32px;
+    clear: none;
+    width: 69.463118%;
+    background-color: rgb(170, 113, 113);
+}
+
+#input {
+    float: left;
+    height: 108px;
+    font-size: 1em;
+    margin-left: 1.729318%;
+    margin-top: 400px;
+    clear: none;
+    width: 47.411073%;
+    -webkit-box-shadow: rgb(45, 45, 45) -2px 6px 3px 0px;
+    box-shadow: rgb(45, 45, 45) -2px 6px 3px 0px;
+    display: block;
+}
+
+#input1 {
+    float: left;
+    height: 108px;
+    font-size: 1em;
+    margin-left: 1.729318%;
+    margin-top: 400px;
+    clear: none;
+    width: 47.448941%;
+    margin-right: 0%;
+    -webkit-box-shadow: rgb(38, 38, 38) 0px 7px 3px 0px;
+    box-shadow: rgb(38, 38, 38) 0px 7px 3px 0px;
+}
+
+@media only screen and (max-width: 891px) {
+    #input:hover {
+        display: block;
+        background-color: rgb(239, 241, 241);
+        -webkit-box-shadow: rgb(50, 50, 50) 0px 3px 3px 0px;
+        box-shadow: rgb(50, 50, 50) 0px 3px 3px 0px;
+    }
+
+    #box {
+        height: 517px;
+        width: 69.465488%;
+        margin-top: 32px;
+        margin-left: 14.65874%;
+        clear: none;
+    }
+
+    #input {
+        float: left;
+        height: 108px;
+        font-size: 1em;
+        margin-left: 1.729318%;
+        margin-top: 400px;
+        clear: none;
+        width: 47.411073%;
+        -webkit-box-shadow: rgb(45, 45, 45) -2px 6px 3px 0px;
+        box-shadow: rgb(45, 45, 45) -2px 6px 3px 0px;
+        display: block;
+    }
+
+    #input1 {
+        float: left;
+        height: 108px;
+        font-size: 1em;
+        margin-left: 1.729318%;
+        margin-top: 400px;
+        clear: none;
+        width: 47.448941%;
+        margin-right: 0%;
+        -webkit-box-shadow: rgb(38, 38, 38) 0px 7px 3px 0px;
+        box-shadow: rgb(38, 38, 38) 0px 7px 3px 0px;
+    }
+}
+
